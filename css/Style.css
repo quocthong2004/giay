@@ -1,0 +1,170 @@
+@charset "utf-8";
+body {
+	font-family: 'Be Vietnam Pro', sans-serif;
+  }
+/* CSS Document */
+.top-bar, .bottom-bar{
+	width: 100%;
+	height: 50px;
+	line-height: 50px
+}
+.top-bar a{
+	color: aliceblue
+}
+.top-bar a:hover{
+	color: #FFC113
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{color:#ff0000}
+.navbar .navbar-nav .nav-item .dropdown-menu{ background-color: #fff; padding-bottom: 0; padding-top: 0; border: black;}
+.navbar .navbar-nav .nav-item .dropdown-menu li{border-bottom: 1px solid rgb(255, 255, 255)}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{color: rgb(0, 0, 0)}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{background-color: #FFC113}
+.navbar .navbar-nav .nav-item .nav-link{padding: 10px 30px}
+main{width: 100%; min-height: 500px}
+footer {
+	width: 100%;
+	background-color: #f8f9fa;
+	color: #343a40;
+	padding: 20px 0;
+  }
+  
+  footer h5 {
+	font-size: 16px;
+	border-bottom: 2px solid #343a40;
+	padding-bottom: 5px;
+  }
+  
+  footer p, footer ul, footer a {
+	font-size: 14px;
+  }
+  
+  footer a {
+	color: #343a40;
+	text-decoration: none;
+  }
+  
+  footer a:hover {
+	color: #ffc107;
+  }
+  
+  footer .text-dark {
+	color: #343a40;
+  }
+  
+  footer .text-dark:hover {
+	color: #ffc107;
+  }
+  
+  footer .me-2 {
+	margin-right: 0.5rem;
+  }
+  
+  
+#service a{
+	text-decoration: none; color: black
+}
+#service a:hover{
+	color: #FFC113
+}
+/* #why{
+	width: 100%;
+	height: 500px;
+	background-image: url("../img/footer.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;
+} */
+#service .bg-image {
+	position: relative;
+	overflow: hidden;
+  }
+  
+  #service .bg-image .mask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: hsla(0, 0%, 0%, 0.449);
+	opacity: 0;
+	transition: opacity 0.5s ease;
+  }
+  
+  #service .bg-image:hover .mask {
+	opacity: 1;
+  }
+  
+  #service img.img-fluid {
+	width: 100%;
+	height: auto;
+	transition: transform 0.5s ease;
+  }
+  
+  #service .bg-image:hover img.img-fluid {
+	transform: scale(1.1);
+  }
+.hover{
+	padding-top: 30px;
+	text-align: center;
+	color: #000;
+}
+.hover:hover{
+color: #ff0000;
+}
+a .hover{
+	color: #000;
+}
+a .hover:hover{
+	color: #ff0000;
+}
+hr{
+	color: #000 !important;
+}
+.hinh{
+	width: 100%;
+	position: relative;
+}
+.truoc{
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 8px;
+	background-color:rgba(130,129,129,0.8)
+}
+.sau{
+	position: absolute;
+	left: 50%;
+	top: 0;
+	padding: 8px;
+	background-color:rgba(130,129,129,0.8)
+}
+
+#cn .owl-nav { position:absolute; left:0px; top:30%; width:100%; }
+#cn .owl-nav [class*='owl-'] {
+	font-size:40px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #056CB6
+}
+
+#cn .owl-nav .owl-next{ position:absolute; right:5%;}
+#cn .owl-nav .owl-prev{ position:absolute; left:5%;}
+#cn .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:#FFC113;
+      text-decoration: none; }
+#cam-nhan .noi-dung{
+	text-align: center;
+	padding: 10px 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center
+}
+#cam-nhan .noi-dung img{
+	width: 90px;
+	height: 90px
+}
+#tin-tuc a{
+	text-decoration: none;
+	color:black
+}
+#tin-tuc a:hover{color:#ff0000}
